@@ -1,0 +1,73 @@
+$background-grey:#0d1521;
+$button-grey:#fff;
+
+body {
+  font-family: tahoma;
+  color: #989898;
+  font-size: 14px;
+  line-height: 1.3rem;
+  background-color: $background-grey;
+}
+
+button{
+  margin-left: 1.3rem;
+  margin-top: 0.1 rem;
+  height: 2.5rem;
+  background: #23282e;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: $button-grey;
+  cursor: pointer;
+  font-size: 1.3 rem;
+}
+form{
+  display: inline;
+}
+.container{
+  font-size: 1.3rem;
+}
+
+
+
+.td_task{
+  width: 50%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.td_input{
+  width: 50%;
+  padding: 0.5rem;
+  background: rgb(245, 245, 245);
+  font-size: 1.3rem;
+  margin: 0.1 rem 0;
+}
+.prior_input{
+  width: 10%;
+  padding: 0.5rem;
+  background:  rgb(245, 245, 245);
+  font-size: 1.3rem;
+  margin: 0.1 rem 0;
+}
+.timer_place{
+  width: 200px;
+  padding: 2rem;
+  height: 3rem;
+  background: rgb(245, 245, 245);
+  font-size: 1.5rem;
+  margin: 0.5 rem 0;
+}
+.time{
+  display: inline;
+  color: #23282e;
+}
+.is_selected{
+  padding: 6pt;
+  color:#11191a;
+  background:#c6fff7;
+}
+.is_comp{
+  text-decoration: line-through;
+  background: rgba(0,0,0,0.2);
+}
+/***/
